@@ -27,6 +27,10 @@ export const authors = [
     name: "David Banys",
     image: "https://og.railway.app/authors/david-banys.png",
   },
+  {
+    name: "Sarah Bedell",
+    image: "https://og.railway.app/authors/sarah-bedell.jpg",
+  },
 ];
 
 const defaultAuthor = authors[0];
