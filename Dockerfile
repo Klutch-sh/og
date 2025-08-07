@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:14-alpine
+FROM node:16-alpine
 ENV NODE_ENV=production
 RUN apk add --no-cache g++ make
 WORKDIR /app
