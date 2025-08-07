@@ -31,12 +31,8 @@ const Component: React.FC<{ config: BlogLayoutConfig }> = ({ config }) => {
         )}
 
         <p tw="flex flex-wrap text-7xl" style={{ lineHeight: 1.5 }}>
-          Deploy{" "}
-          <span tw="mx-3" style={{ color: "#C049FF" }}>
-            {config.Name}
-          </span>
+          Deploy {config.Name} on Klutch.sh
           <br />
-          on Railway
         </p>
       </div>
 
