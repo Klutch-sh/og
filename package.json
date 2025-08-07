@@ -1,5 +1,5 @@
 {
-  "name": "klutch-sh-og-image-generator",
+  "name": "railway-og-image-generator",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/marked": "4.0.8",
-    "@types/node": "24.2.0",
+    "@types/node": "^18.11.16",
     "@types/react": "17.0.43",
     "@types/react-dom": "^18.0.9",
     "@types/styled-components": "^5.1.26",
@@ -40,7 +40,7 @@
     "prettier": "^2.3.0",
     "tailwindcss": "^3.2.4",
     "twin.macro": "^3.1.0",
-    "typescript": "5.9.2"
+    "typescript": "4.9.4"
   },
   "babelMacros": {
     "twin": {
